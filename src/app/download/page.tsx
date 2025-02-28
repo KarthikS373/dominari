@@ -58,10 +58,6 @@ export default function DownloadPage() {
           <h1 className="text-4xl md:text-6xl font-bold mb-6 text-green-900">
             Download Now
           </h1>
-          <p className="text-lg md:text-xl text-green-800 max-w-2xl mx-auto">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Consequuntur eos odit error.
-          </p>
         </motion.div>
 
         {/* Download Options */}
