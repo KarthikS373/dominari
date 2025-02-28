@@ -99,7 +99,15 @@ export default function DownloadPage() {
                   }}
                   transition={{ duration: 0.2 }}
                 >
-                  <Button className="w-full group rounded-md bg-green-700 hover:bg-green-800 text-white">
+                  <Button
+                    onClick={() => {
+                      window.open(
+                        `https://github.com/KarthikS373/ai-coc/releases/download/exe/dominari.exe`,
+                        "_blank"
+                      );
+                    }}
+                    className="w-full group rounded-md bg-green-700 hover:bg-green-800 text-white"
+                  >
                     Download for Desktop
                     <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </Button>
@@ -138,7 +146,7 @@ export default function DownloadPage() {
                   <Button
                     onClick={() => {
                       window.open(
-                        `https://github.com/KarthikS373/ai-coc/releases/download/apk/ai-coc.apk`,
+                        `https://github.com/KarthikS373/ai-coc/releases/download/exe/dominari.apk`,
                         "_blank"
                       );
                     }}
