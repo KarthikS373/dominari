@@ -135,7 +135,15 @@ export default function DownloadPage() {
                   }}
                   transition={{ duration: 0.2 }}
                 >
-                  <Button className="w-full group rounded-md bg-teal-700 hover:bg-teal-800 text-white">
+                  <Button
+                    onClick={() => {
+                      window.open(
+                        `https://github.com/KarthikS373/ai-coc/releases/download/apk/ai-coc.apk`,
+                        "_blank"
+                      );
+                    }}
+                    className="w-full group rounded-md bg-teal-700 hover:bg-teal-800 text-white"
+                  >
                     Download for Android
                     <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </Button>
